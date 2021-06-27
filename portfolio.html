@@ -1,0 +1,145 @@
+<html>
+
+<head>
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="sty.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/937c78b833.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="jquery.tiltedpage-scroll.js"></script>
+    <link href="tiltedpage-scroll.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <section class="header">
+            <div class="content-box">
+                <div class="menu">
+                    <img src="logoo.jpg">
+                    <button type="button"><i class="fas fa-angle-double-right"></i>Contact</button>
+                </div>
+                <div class="banner-txt">
+                    <h2>Christeen Maria Philip</h2>
+                    <h4>Creator of Web World.</h4>
+                    <p>I'm a Front-end Web developer and currently pursuing my Btech degree in Computer Science.
+                        <br>Looking forward to work for my dream companies
+                        <br>which provides the chance to improve my Web Development skills to learn and grow
+                        along with the organisation goals.
+                    </p>
+                    <a href="#">About me</a>
+                </div>
+            </div>
+        </section>
+        <!----Service---->
+        <section class="service">
+            <div class="content-box">
+                <h1>My Service</h1>
+                <div class="row services">
+                    <div class="col-md-3 text-center">
+                        <div class="icon">
+                            <i class="fas fa-paper-plane"></i>
+                        </div>
+                        <h3>Customized <span>Web Page </span></h3>
+                        <p>I provide best and more customfriendly webpages within
+                            short span of time.</p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <div class="icon">
+                            <i class="fab fa-laravel"></i>
+                        </div>
+                        <h3>Logo <span>Creation</span></h3>
+                        <p>Unique customized logo will be available.Cost may vary
+                            according to the needs.</p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <div class="icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <h3>Digital <span>Marketing</span></h3>
+                        <p>Promoting brands through various social media platforms.</p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <div class="icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h3>Video <span>Editing</span></h3>
+                        <p>Making out beautiful and stunning videos. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!----feature---->
+        <section class="feature">
+            <div class="content-box">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2>My Features</h2>
+                            <ul>
+                                <li>Self-discipline.</li>
+                                <li>Good time management.</li>
+                                <li>Motivated.</li>
+                                <li>Professional.</li>
+                                <li>Flexible.</li>
+                                <li>Good networking skills.</li>
+                                <li>Resilient.</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="pic.jpg" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!---Footer----->
+        <section class="footer">
+            <div class="content-box">
+                <div class="container">
+                    <h1>Get In Touch</h1>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <form class="contact-form">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Address">
+                                </div>
+                                <div class="form-group">
+                                    <input type="number" class="form-control" placeholder="Phone Number">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Email ID">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" rows="4" placeholder="Your Message">
+
+                                </div>
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </form>
+                        </div>
+                        <div class="col-md-6">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        $(".main").tiltedpage_scroll({
+            sectionContainer: "> section",     // In case you don't want to use <section> tag, you can define your won CSS selector here
+            angle: 50,                         // You can define the angle of the tilted section here. Change this to false if you want to disable the tilted effect. The default value is 50 degrees.
+            opacity: true,                     // You can toggle the opacity effect with this option. The default value is true
+            scale: true,                       // You can toggle the scaling effect here as well. The default value is true.
+            outAnimation: true                 // In case you do not want the out animation, you can toggle this to false. The defaul value is true.
+        });
+    </script>
+</body>
+
+</html>
